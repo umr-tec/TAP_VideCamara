@@ -29,6 +29,7 @@ namespace TAPU2_Ejemplo2
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gbOpciones = new System.Windows.Forms.GroupBox();
             this.cbVideoCamara = new System.Windows.Forms.ComboBox();
             this.btnDetener = new System.Windows.Forms.Button();
@@ -122,6 +123,7 @@ namespace TAPU2_Ejemplo2
             this.Controls.Add(this.videoSourcePlayer1);
             this.Controls.Add(this.gbOpciones);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";

@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ICON.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="AForge.Controls">
       <HintPath>D:\ulise\Descargas\MotionDetector\MotionDetector\AForge.Controls.dll</HintPath>
@@ -106,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\stop_FILL0_wght400_GRAD0_opsz48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ICON.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
