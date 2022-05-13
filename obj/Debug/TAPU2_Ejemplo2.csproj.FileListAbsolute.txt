@@ -1,0 +1,16 @@
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\TAPU2_Ejemplo2.exe.config
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\TAPU2_Ejemplo2.exe
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\TAPU2_Ejemplo2.pdb
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.Video.DirectShow.dll
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.Video.dll
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.dll
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\obj\Debug\TAPU2_Ejemplo2.csproj.AssemblyReference.cache
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\obj\Debug\TAPU2_Ejemplo2.Form1.resources
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\obj\Debug\TAPU2_Ejemplo2.Properties.Resources.resources
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\obj\Debug\TAPU2_Ejemplo2.csproj.GenerateResource.cache
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\obj\Debug\TAPU2_Ejemplo2.csproj.CoreCompileInputs.cache
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\obj\Debug\TAPU2_Ejemplo2.exe
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\obj\Debug\TAPU2_Ejemplo2.pdb
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.Controls.dll
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.Imaging.dll
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.Math.dll
