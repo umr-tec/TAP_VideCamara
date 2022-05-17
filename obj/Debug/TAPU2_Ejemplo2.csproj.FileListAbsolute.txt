@@ -14,3 +14,4 @@ C:\Users\ulise\source\repos\TAPU2_Ejemplo2\obj\Debug\TAPU2_Ejemplo2.pdb
 C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.Controls.dll
 C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.Imaging.dll
 C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\AForge.Math.dll
+C:\Users\ulise\source\repos\TAPU2_Ejemplo2\bin\Debug\BarcodeLib.BarcodeReader.dll

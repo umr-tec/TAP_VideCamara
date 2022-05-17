@@ -29,36 +29,34 @@ namespace TAPU2_Ejemplo2
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.gbOpciones = new System.Windows.Forms.GroupBox();
-            this.cbVideoCamara = new System.Windows.Forms.ComboBox();
             this.btnDetener = new System.Windows.Forms.Button();
             this.btnFoto = new System.Windows.Forms.Button();
             this.btnCamara = new System.Windows.Forms.Button();
+            this.cbVideoCamara = new System.Windows.Forms.ComboBox();
             this.videoSourcePlayer1 = new AForge.Controls.VideoSourcePlayer();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnLeerQR = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.gbOpciones.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbOpciones
             // 
+            this.gbOpciones.Controls.Add(this.textBox1);
+            this.gbOpciones.Controls.Add(this.btnLeerQR);
             this.gbOpciones.Controls.Add(this.btnDetener);
             this.gbOpciones.Controls.Add(this.btnFoto);
             this.gbOpciones.Controls.Add(this.btnCamara);
             this.gbOpciones.Controls.Add(this.cbVideoCamara);
             this.gbOpciones.Location = new System.Drawing.Point(12, 12);
             this.gbOpciones.Name = "gbOpciones";
-            this.gbOpciones.Size = new System.Drawing.Size(460, 130);
+            this.gbOpciones.Size = new System.Drawing.Size(667, 130);
             this.gbOpciones.TabIndex = 0;
             this.gbOpciones.TabStop = false;
             this.gbOpciones.Text = "Opciones";
-            // 
-            // cbVideoCamara
-            // 
-            this.cbVideoCamara.FormattingEnabled = true;
-            this.cbVideoCamara.Location = new System.Drawing.Point(6, 21);
-            this.cbVideoCamara.Name = "cbVideoCamara";
-            this.cbVideoCamara.Size = new System.Drawing.Size(448, 24);
-            this.cbVideoCamara.TabIndex = 0;
             // 
             // btnDetener
             // 
@@ -105,6 +103,14 @@ namespace TAPU2_Ejemplo2
             this.btnCamara.UseVisualStyleBackColor = true;
             this.btnCamara.Click += new System.EventHandler(this.btnCamara_Click);
             // 
+            // cbVideoCamara
+            // 
+            this.cbVideoCamara.FormattingEnabled = true;
+            this.cbVideoCamara.Location = new System.Drawing.Point(6, 21);
+            this.cbVideoCamara.Name = "cbVideoCamara";
+            this.cbVideoCamara.Size = new System.Drawing.Size(448, 24);
+            this.cbVideoCamara.TabIndex = 0;
+            // 
             // videoSourcePlayer1
             // 
             this.videoSourcePlayer1.Location = new System.Drawing.Point(12, 148);
@@ -114,12 +120,37 @@ namespace TAPU2_Ejemplo2
             this.videoSourcePlayer1.Text = "videoSourcePlayer1";
             this.videoSourcePlayer1.VideoSource = null;
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // btnLeerQR
+            // 
+            this.btnLeerQR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLeerQR.Font = new System.Drawing.Font("IBM Plex Serif", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLeerQR.Image = global::TAPU2_Ejemplo2.Properties.Resources.baseline_face_black_18dp;
+            this.btnLeerQR.Location = new System.Drawing.Point(446, 63);
+            this.btnLeerQR.Name = "btnLeerQR";
+            this.btnLeerQR.Size = new System.Drawing.Size(88, 54);
+            this.btnLeerQR.TabIndex = 4;
+            this.btnLeerQR.Text = "Leer QR";
+            this.btnLeerQR.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnLeerQR.UseVisualStyleBackColor = true;
+            this.btnLeerQR.Click += new System.EventHandler(this.btnLeerQR_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(460, 23);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(201, 22);
+            this.textBox1.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(691, 620);
+            this.ClientSize = new System.Drawing.Size(793, 620);
             this.Controls.Add(this.videoSourcePlayer1);
             this.Controls.Add(this.gbOpciones);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
@@ -131,6 +162,7 @@ namespace TAPU2_Ejemplo2
             this.Text = "WebCam";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.gbOpciones.ResumeLayout(false);
+            this.gbOpciones.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -143,6 +175,9 @@ namespace TAPU2_Ejemplo2
         private System.Windows.Forms.Button btnDetener;
         private System.Windows.Forms.Button btnFoto;
         private AForge.Controls.VideoSourcePlayer videoSourcePlayer1;
+        private System.Windows.Forms.Button btnLeerQR;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
